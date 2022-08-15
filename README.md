@@ -24,7 +24,7 @@
     <a href="https://twitter.com/peteberc" title="Follow on Twitter"><img src="https://img.shields.io/twitter/follow/mltooling.svg?style=social&label=Follow"></a>
 </p>
 
-In this application, I explored a Portuguese Bank Marketing Data Set from the following site: [UCI Repository](https://archive.ics.uci.edu/ml/datasets/bank+marketing). Our goal is to use about four classifiers in modelling the data and then compare the performance of each of the classifiers. 
+In this capstone project, the datasets explored contains transactions made by credit cards in September 2013 by European cardholders. This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions. The dataset is from the following site: [Data Source Site](https://data.world/raghu543/credit-card-fraud-data)
 
 #### Business Objective
 The business objective is to predict if a customer will subscribe a term deposit.
