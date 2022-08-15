@@ -29,12 +29,10 @@ In this capstone project, the datasets explored contains transactions made by cr
 #### Business Objective
 The business objective is to help a financial institution to lower the risk of loss of funds for its customers. Secondly, it will also enable the bank to improve on its public image and reputation.
 
-The business objective is to predict if a customer will subscribe a term deposit.
-
-<h2 align="center">
-   **Selected Model: Support Vector Machine was selected**
-    <br>
-</h2>
+<h4>
+   <b>Selected Model: Support Vector Machine was selected</b>
+</h4>
+<div style="font-size:13px;font-family:'Arial'; font-weight:400">The proprietary information has been provided by the source: <span style="font-size:14px;font-family:'Times New Roman'; font-style:italic;">Machine Learning Group of Université Libre de Bruxelles</span></div>
 
 ---
 
