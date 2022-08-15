@@ -27,6 +27,8 @@
 In this capstone project, the datasets explored contains transactions made by credit cards in September 2013 by European cardholders. This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions. The dataset is from the following site: [Data Source Site](https://data.world/raghu543/credit-card-fraud-data)
 
 #### Business Objective
+The business objective is to help a financial institution to lower the risk of loss of funds for its customers. Secondly, it will also enable the bank to improve on its public image and reputation.
+
 The business objective is to predict if a customer will subscribe a term deposit.
 
 <h2 align="center">
