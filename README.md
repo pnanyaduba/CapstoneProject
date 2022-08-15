@@ -1,11 +1,19 @@
 <!-- markdownlint-disable -->
 <h1 align="center">
-   Practical Application Assignment 17.1: Comparing Classifiers 
+   Capstone Project
     <br>
 </h1>
 
+
+<h2 align="center">
+   **Credit Card Fruad Detection**
+    <br>
+</h2>
+
+---
+
 <p align="center">
-    <strong>🏆&nbsp; A comparison of classifiers: LogisticRegression, KNN, DecisionTree and Support Vector Machine.</strong>
+    <strong>🏆&nbsp; In partial fulfillment for the award of the Professional Certificate in Machine Learning and Artificial Intelligence</strong>
 </p>
 
 <p align="center">
