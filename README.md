@@ -40,18 +40,20 @@
 </h2>
 
 
-All over the world millions of credit card transactions are constantly processed by thousands of financial institutions. 
-These transactions often are processed in real time and often across geographical regions and borders. More often than not, 
+**Overview.** All over the world millions of credit card transactions are constantly processed by hundreds of financial institutions. 
+These transactions often are processed in real time and often cross geographical regions and borders. More often than not, 
 speed and timeliness is the key factors that holders of credit cards view as motivation for using online transactions. However, 
 these qualities have their downsides. One key downside is the risk that customers will loose their funds if their credit card 
 details are stolen.
 
-Thousands of fraudulent transactions from stolen credit cards occur on a daily basis. Most customers whose credit cards have 
-entered the wrong hands only find out when they receive invoices or receipts of what they didn't pay for.
+Hundreds of fraudulent transactions from stolen credit cards occur on a daily basis. Most customers whose credit cards have 
+entered the wrong hands most times, find out when they receive invoices or receipts of what they didn't pay for.
 
-Often this constitute a risk for the issuing financial institutions who sometimes might face serious consequences as a result of processing transactions from stolen or lost credit card. This high risk factor can cost financial organizations dearly. 
+Often this constitute a risk for the issuing financial institutions who sometimes face serious penalties as a result of transactions from compromised credit card. This high risk factor can cost financial organizations dearly. 
 
-Most financial organizations as a result have turned to technology to help detect fraudulent transactions and hence lower their risk. In addition to lowering their risk, detecting and foiling fraudulent credit card transactions will improve the image and integrity of the institutions.
+Consequently, financial organizations have turned to technology and Artificial Intelligence to aid in detecting fraudulent credit card transactions and hence in order to lower their risk. In addition to lowering their risk, detecting and foiling fraudulent credit card transactions will improve the image, business and integrity of the institutions.
+
+**Problem.** How can financial institutions lower their risk by actively detecting in real time, fraudulent credit card transaction.
 
 **Methodology.** The methodology used involves 5 key machine learning techniques which include imbalanced class handling, categorical features, clustering and classification, sequential modelling and performance measures.
 
