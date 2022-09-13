@@ -69,7 +69,7 @@ The dataset utilized contains a 2-day transactions made by European credit card 
 
 The dataset used has been collected and analysed during a research collaboration of Worldline and the Machine Learning Group (http://mlg.ulb.ac.be) of ULB (Université Libre de Bruxelles) on big data mining and fraud detection.
 
-In executing the project, the general information about the dataset is obtained. Existence of null values is checked. The distribution of the dataset is plotted to get a clear picture of the data. Next, the distribution of the classes are separated for analysis. The statistical characteristics of both legitimate and fraudulent transactions are obtained and compared. Below is the constitution of the dataset:
+In executing the project, the general information about the dataset is obtained. Existence of null values is checked. The distribution of the dataset is plotted to get a clear picture of the data. Next, the distribution of the classes are separated for analysis. The statistical characteristics of both legitimate and fraudulent transactions are obtained and compared. Below is the definition of the dataset:
 
 - The dataset contains a total of 284,807 transactions
 - There are two classes of data. Fraud class which contains 492 transactions and Legitimate class which contains of 284,315 transactions.
@@ -79,12 +79,11 @@ In executing the project, the general information about the dataset is obtained.
 - Feature 'Time' contains the seconds elapsed between each transaction and the first transaction in the dataset.
 - The feature 'Amount' is the transaction Amount, this feature can be used for example-dependant cost-senstive learning.
 - Feature 'Class' is the response variable and it takes value 1 in case of fraud and 0 otherwise.
-- Handle Imbalanced Dataset
 
 
 The next step involves handling the Imbalanced classes in which under-sampling was utilized instead of over-sampling in order to minimize the computational cost. An equal amount of both legitimate and fraudulent transactions are then obtained. The under-sampled data is not split into Train and Test sets.
 
-Models are developed and tuned using the under-sampled train dataset. LogisticRegression, KNNClassifier, RandomForestClassifier, and the DecisionTreeClassifier. A model is finally selected based on its performance. The model's accuracy is obtained and the threshold is determined.
+Models were developed and tuned using the under-sampled train dataset. The models used include LogisticRegression, KNNClassifier, RandomForestClassifier, and the DecisionTreeClassifier. RandomForestClassifier model was finally selected based on its performance. The model's accuracy is obtained and the threshold is determined.
 
 
 **The Findings.** The findings from the study are as follows:
