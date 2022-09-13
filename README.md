@@ -206,8 +206,9 @@ The following methods were utilized in the project.
    Results
     <br>
 </h2>
+The Analysis of the four models created and hyperparameter-tuned which include, LogisticticRegression, DecisionTree Classifier, KNNClassifier and RandomForestClassifier was performed according to the BEST SCORE criteria. 
 
-The outcome of the project, based on performance figures of hyperparameter tuning shows that the RandomForestClassifer is the best mechanism to predict if a transaction is fraudulent. Out of the four models created and tuned, the RandomForestClassifer was selected. 
+The outcome of the analysis, based on best-score performance figures for hyperparameter tuning shows that the RandomForestClassifer is the best mechanism to predict if a transaction is fraudulent. Out of the four models created and tuned, the RandomForestClassifer was selected. 
 
 <h2>
    Outline of Project
