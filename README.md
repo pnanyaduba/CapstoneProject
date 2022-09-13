@@ -128,7 +128,11 @@ How can financial institutions and Banks effectively combat fraudulent credit ca
 #### **Sourcing**
 The dataset has been collected and analysed during a research collaboration of Worldline and the Machine Learning Group (http://mlg.ulb.ac.be) of ULB (Université Libre de Bruxelles) on big data mining and fraud detection. The dataset used can be attributed to Andrea Dal Pozzolo, Olivier Caelen, Reid A. Johnson and Gianluca Bontempi. Calibrating Probability with Undersampling for Unbalanced Classification. In Symposium on Computational Intelligence and Data Mining (CIDM), IEEE, 2015
 
-#### **Data Preparation**
+<h2>
+   Data Preparation
+    <br>
+</h2>
+
 Below are steps followed for preparing the data for analysis:
 
 - The dataset has been pre-prepared before it was obtained and contains numerical features resulting from PCA transformation.
@@ -141,8 +145,16 @@ Below are steps followed for preparing the data for analysis:
 - The feature 'Amount' is the transaction Amount, this feature can be used for example-dependant cost-senstive learning.
 - Feature 'Class' is the response variable and it takes value 1 in case of fraud and 0 otherwise.
 - Lastly, the imbalanced dataset was processed using under-sampling in order to obtain a balanced dataset
+- The balanced data obtained as follows: Fraudulent Transactions: 492, Legitimate Transactions: 492
+- Mean of Fraudulent Transactions of Balanced Data: 122.21
+- Mean of Legitimate Transactions: 99.80
+- The Balanced Dataset is split into Train and Test data
 
-#### **Final DataSet**
+<h2>
+   Final Dataset
+    <br>
+</h2>
+
 The final dataset contains:
 - A <b>Fraudulent Transactions Class</b> of <b>492</b> and a <b>Legitimate Transactions Class</b> of <b>284,315</b>
 - The Features include: 
@@ -152,9 +164,10 @@ The final dataset contains:
    - Class
 
 
-#### Methodology
-Explain what methods you are using to answer the question and why.
-For each method describe how you have built the model and its rational
+<h2>
+   Methodology
+    <br>
+</h2>
 
 The following methods were utilized in the project.
 
@@ -175,31 +188,46 @@ The following methods were utilized in the project.
 15. Mean of Fraudulent Transactions: 122.21
 16. Mean of Legitimate Transactions: 99.80
 17. The Balanced Dataset is split into Train and Test data
+
+#### **Methodology for Models**
 18. Use One-Versus-Rest, One-Versus-One and Multinomial Classification to determine best accuracy values.
-19. Create Models LogisticRegression, KNNClassifier, RandomForestClassifer and DecisionTreeClassifier
-20. Tune the models
-21. Present their best score in tabular format and select the best score
-22. RandomForestClassifer was selected as best score
-23. Fine tune the RandomForestClassifer
-24. Get the ClassificationReport
-25. Get the ConfusionMatrix plot
-26. Get The threshold that will maximize the models ability to predict fraudulent transactions
-27. Present the precision.
+19. Four models were developed using the following classifiers each: LogisticRegression, KNNClassifier, RandomForestClassifer and DecisionTreeClassifier
+21. Hyperparameter tuning was performed on each Model using the GridSearchCV and their best scores were obtained
+22. Their best scores were presented alongside each other in a tabular form and the best performing score was selected
+23. The RandomForestClassifer was selected because it produced the best performance score.
+24. Lastly, the RandomForestClassifier was fine-tuned 
+25. The ClassificationReport report was obtained
+26. The ConfusionMatrix was plotted
+27. The threshold that will maximize the models ability to predict fraudulent transactions was producted
+28. Finally, the Precision was obtained.
 
 
+<h2>
+   Results
+    <br>
+</h2>
 
-#### Results
-The outcome of the project shows that the RandomForestClassifer is the best mechanism to predict that a transaction is fraudulent.
-RandomForestClassifer was selected out of the four models used: LogisticRegression, KNNClassifier, RandomForestClassifer and DecisionTreeClassifier. 
-The RandomForestClassifer was selected due to it has the best Score after hyperparameter tuning.
+The outcome of the project, based on performance figures of hyperparameter tuning shows that the RandomForestClassifer is the best mechanism to predict if a transaction is fraudulent. Out of the four models created and tuned, the RandomForestClassifer was selected. 
 
-#### Outline of project
+<h2>
+   Outline of Project
+    <br>
+</h2>
+
 https://github.com/pnanyaduba/CapstoneProject/blob/main/CapstoneNotebookCopy2.ipynb
 
-#### **Conclusion**
+<h2>
+   Conclusion
+    <br>
+</h2>
+
 Using  a RandomForestClassifer provides an effective machine learning mechanism to detect fraudulent credit card transactions. Improvements to the project will involve an indepth hyperparameter tuning and possibly explore using neural networks to improve on the results of the project.
 
-##### **Contact and Further Information**
+<h2>
+   Contact and Further Information
+    <br>
+</h2>
+
 
 Nwachukwu Peter Anyaduba <br />
 +234 708.688.3202<br />
