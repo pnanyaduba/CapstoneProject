@@ -224,5 +224,5 @@ Using  a RandomForestClassifer provides an effective machine learning mechanism 
 
 Nwachukwu Peter Anyaduba <br />
 +234 708.688.3202<br />
-Twitter: @pete2ai<br />
+<a href="https://twitter.com/pete2ai" title="Follow on Twitter"><img src="https://img.shields.io/twitter/follow/mltooling.svg?style=social&label=Follow"></a<br />
 Email: pete2ai.co@gmail.com<br />
