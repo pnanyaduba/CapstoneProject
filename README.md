@@ -131,20 +131,25 @@ The dataset has been collected and analysed during a research collaboration of W
 #### **Data Preparation**
 Below are steps followed for preparing the data for analysis:
 
+- The dataset has been pre-prepared before it was obtained and contains numerical features resulting from PCA transformation.
 - The dataset contains fields which have been pre-prepared and contains a 2-day credit cards transactions by european cardholders in Sept. 2013.
 - The dataset contains a total of 284,807 transactions
 - There are two classes of data. Fraud class which contains 492 transactions and Legitimate class which contains of 284,315 transactions.
 - The dataset is highly unbalanced and Fraud class represents 0.172% of all transactions.
-- The dataset has been pre-prepared and has the numerical features resulting from PCA transformation.
 - Features include Time, V1, V2, V3 to V28 and 'Amount'.
 - Feature 'Time' contains the seconds elapsed between each transaction and the first transaction in the dataset.
 - The feature 'Amount' is the transaction Amount, this feature can be used for example-dependant cost-senstive learning.
 - Feature 'Class' is the response variable and it takes value 1 in case of fraud and 0 otherwise.
-- Handle Imbalanced Dataset
+- Lastly, the imbalanced dataset was processed using under-sampling in order to obtain a balanced dataset
 
-Final DataSet
-- Fraudulent Transactions: 492, Legitimate Transactions: 492
-- Features: Time, Amount, V1 TO V28, Class
+#### **Final DataSet**
+The final dataset contains:
+- A <b>Fraudulent Transactions Class</b> of <b>492</b> and a <b>Legitimate Transactions Class</b> of <b>284,315</b>
+- The Features include: 
+   - Time
+   - Amount 
+   - V1 TO V28, 
+   - Class
 
 
 #### Methodology
