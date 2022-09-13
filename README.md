@@ -55,7 +55,7 @@ Consequently, financial organizations have turned to technology and Artificial I
 
 **Problem.** How can financial institutions lower their risk by actively detecting in real time, fraudulent credit card transaction?
 
-**Methodology.** This project/study provides an avenue to help financial institutions by creating machine learning algorithms that will aid in detecting in real time, credit card fraud. The methodology used involves 5 key machine learning techniques which include imbalanced class handling, categorical features, clustering and classification, sequential modelling and performance measures.
+**Methodology.** This project provides an avenue to help financial institutions detect in real time credit card fraud using machine learning algorithm. The methodology used involves 5 key machine learning techniques which include imbalanced class handling, categorical features, clustering and classification, sequential modelling and performance measures.
 
 The dataset utilized contains a 2-day transactions made by European credit card users in September 2013. About 492 fraudulent transactions were identified from 284,807 transactions. The dataset has highly imbalanced classes. These dataset have been processed using Principal Component Analysis. The target feature is the 'Class' field which can either be a 'zero' or a 'one' representing legitimate or fraudulent transactions respectively. 
 
